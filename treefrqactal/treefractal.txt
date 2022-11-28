@@ -1,0 +1,38 @@
+int angle = 30;
+int delta = 10;
+int distance = 60;
+//Turtle.Speed = 9;
+DrawTree();
+
+void DrawTree(){
+  if(distance > 0) {
+    
+//Turtle.Move(distance)
+	
+    
+//Turtle.Turn(angle)
+    
+    
+//Stack.PushValue("distance", distance);
+    
+
+	distance = distance - delta;
+    
+
+	DrawTree();
+    
+//Turtle.Turn(-angle * 2);
+    
+
+	DrawTree();
+    
+
+//Turtle.Turn(angle);
+   
+ 
+//distance = Stack.PopValue("distance");
+    
+    
+//Turtle.Move(-distance);
+  }
+}
